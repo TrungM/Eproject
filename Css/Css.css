@@ -115,6 +115,7 @@ ul.submenu li a:hover {
     border: tomato solid thick;
     padding: 1rem;
     background-color: #ff914d;
+    
 
 }
 
@@ -317,12 +318,14 @@ font-weight: 600px;
 }
 #p5 img{
     padding: 0.7rem;
-    margin-left: 0.7rem;
+    margin: 0.2rem;
+
 
   
 }
 #p5{
-margin-top: 50px;
+margin-top: 4%;
+
 }
 .sendfeedback{
     padding: 2rem;

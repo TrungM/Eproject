@@ -9,7 +9,7 @@
 
     .input1 {
         border: 2px rgb(39, 2, 2) solid;
-        width: 500px;
+        width: 40%;
         height: 2.8rem;
         filter: opacity(40%);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -30,7 +30,7 @@
         height: 2.6rem;
         width: 15%;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+clear: left;
 
     }
 
@@ -110,7 +110,7 @@
             <span ng-show="form.Party.$error.required" style="color: red;">Party is required</span>
         </div>
         <div class="container">
-            <input type="submit" value="Book Now" ng-model="Book" ng-disabled="(form.Lastname.$pristine && form.Lastname.$invalid) ||
+            <input type="submit" style="text-align: center;" value="Book Now" ng-model="Book" ng-disabled="(form.Lastname.$pristine && form.Lastname.$invalid) ||
            ( form.Lastname.$pristine && form.Lastname.$invalid)||(form.Email.$pristine && form.Email.$invalid)||(form.date.$pristine && form.date.$invalid)||(form.Time.$pristine && form.Time.$invalid)||
            (form.Party.$pristine && form.Party.$invalid)" class="btn btn-outline-danger">
         </div>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,86 +10,96 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
- 
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
     <title>Catering</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
-          
         }
-.headline{
-    
-margin-bottom: 0.2rem;
-   margin-left: 0.9rem;
-}
-        
-        .headline h2{
-padding: 90px;
-margin: 10% 100px ;
-color: azure;
-border-bottom: whitesmoke solid thick;
-        }
-        .headline2{
 
-            background-image: url("beefsteak.png") ;
-   background-repeat: no-repeat;
+        .headline {
+            display: flex;
+            justify-content: space-between;
+            padding: 10%;
+            text-align: center;
+            align-items: center;
+            -webkit-box-pack: end;
+            -ms-flex-pack: end;
+            background: url("main2.png") no-repeat;
+            background-position: center;
+            background-size: cover;
+            position: relative;
         }
-        .headline1{
-            background-image: url("shop.png") ;
-   background-repeat: no-repeat;
+
+
+
+        h2 {
+            border-bottom: #fff solid thick;
+            padding: auto;
+            color: rgb(255, 0, 0);
+            font-weight: 600;
+            font-size: 2.4rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .headline:hover {
+            text-decoration: none;
         }
     </style>
 </head>
+
 <body ng-app="myApp" ng-cotroller="Mycontroller">
-   
+
     <div id="p1">
-		<div class="menu">
-			<ul class="root">
-				<li><a href="../Home/Home.html"><span>Home</span> </a></li>
-				<li><a href="../Menu/Menu.html"> <span>Menu</span> </a>
-					<ul class="submenu" style="text-align: center;">
+        <div class="menu">
+            <ul class="root">
+                <li><a href="../Home/Home.html"><span>Home</span> </a></li>
+                <li><a href="../Menu/Menu.html"> <span>Menu</span> </a>
+                    <ul class="submenu" style="text-align: center;">
                         <li><a href="../Menu/Menu.html">Fruit juices</a></li>
-						<li><a href="../Menu/Menu.html"> Vegetable Juices</a></li>
-						<li><a href="../Menu/Menu.html">Smoothies</a></li>
-						<li><a href="../Menu/Menu.html"> Protein Shakes</a></li>
-						<li><a href="../Menu/Menu.html">Winter Menu</a></li>
-						<li><a href="../Menu/Menu.html">Chocolate Juices</a></li>
-						<li><a href="../Menu/Menu.html">Mock Tails</a></li>
-					</ul>
+                        <li><a href="../Menu/Menu.html"> Vegetable Juices</a></li>
+                        <li><a href="../Menu/Menu.html">Smoothies</a></li>
+                        <li><a href="../Menu/Menu.html"> Protein Shakes</a></li>
+                        <li><a href="../Menu/Menu.html">Winter Menu</a></li>
+                        <li><a href="../Menu/Menu.html">Chocolate Juices</a></li>
+                        <li><a href="../Menu/Menu.html">Mock Tails</a></li>
+                    </ul>
 
-				</li>
-				<li><a href="../Guide/guide.html"> <span>Guide</span> </a></li>
-				<li><a href="Catering.html"> <span>Catering</span> </a></li>
-				<li><a href="../Franchise/Franchise.html"> <span>Franchising</span></a></li>
-				<li><a href="../Contactus/Contactus.html"> <span>Contact us</span></a></li>
-				<li> <a href="../About us/About.html"><span> About us</span></a></li>
+                </li>
+                <li><a href="../Guide/guide.html"> <span>Guide</span> </a></li>
+                <li><a href="Catering.html"> <span>Catering</span> </a></li>
+                <li><a href="../Franchise/Franchise.html"> <span>Franchising</span></a></li>
+                <li><a href="../Contactus/Contactus.html"> <span>Contact us</span></a></li>
+                <li> <a href="../About us/About.html"><span> About us</span></a></li>
 
-			</ul>
-		</div>
-	</div>
-    <div id="img">
-			<img src="Red Grey Automotive Car Silhouette Logo (5) (1).png" >
+            </ul>
+        </div>
     </div>
-    <div  id="p8">
-        <h1 style="margin-top: 0.2rem; color: coral;">Welcome to our service</h1>	
+    <div id="img">
+        <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png">
+    </div>
+    <div id="p8">
+        <h1 style="margin-top: 0.2rem; color: coral;">Welcome to our service</h1>
     </div>
     <div id="mainimg">
-        <img src="main1.png" alt=""  width="100%">
+        <img src="main1.png" alt="" width="100%">
     </div>
 
     <div class="headlinemain">
         <h1 style="color: brown;font-size: 60px; border: solid rgb(158, 60, 60) thin;">Catering </h1>
     </div>
     <div class="tmain">
-        <p>As you know beside the juice provide service we do serve catering for various event like wedding, show or party...
-           We will give you an advise about the menu, decorate the wedding, show, party...
-         This is your chance to leave a lasting impression on your guests.
-         You're probably thinking.
-         Okay, okay I'm interested. But how does it all work?
-         Let's get into the specifics… 
-         Here were the image that we take from the customer that believe in us to take care of they wedding, show, party...</p>
+        <p>As you know beside the juice provide service we do serve catering for various event like wedding, show or
+            party...
+            We will give you an advise about the menu, decorate the wedding, show, party...
+            This is your chance to leave a lasting impression on your guests.
+            You're probably thinking.
+            Okay, okay I'm interested. But how does it all work?
+            Let's get into the specifics…
+            Here were the image that we take from the customer that believe in us to take care of they wedding, show,
+            party...</p>
     </div>
     <div id="wrapper">
 
@@ -145,85 +156,86 @@ border-bottom: whitesmoke solid thick;
             </li>
         </ul>
     </div>
-<div>
-    <div class="headline" >
-        <table >
-            <tr >
-                <td class="headline1"><a href="#!catering"><h2>The Problem of a party</h2></a></td>
-                <td class="headline2"> <a href="#!bookatable"><h2>Book a table</h2></a></td>
-            </tr>
-        </table>
+    <div>
+        <div class="headline">
+            <a href="#!catering">
+                <h2>The Problem of a party</h2>
+            </a>
+            <a href="#!bookatable">
+                <h2>Book a table</h2>
+            </a>
+        </div>
+        <div ng-view></div>
     </div>
-    <div ng-view></div>
-</div>
-<div id="p7">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png" >
-                <p class="word">Shrek-Juice.com is a website of the Shrek Juice Centre which is big Juice
-                    Centre famous for variety
-                    of juices it provides. They also provide catering service for various events like Wedding, Shows
-                    and
-                    so
-                    on.</p>
+    <div id="p7">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png">
+                    <p class="word">Shrek-Juice.com is a website of the Shrek Juice Centre which is big Juice
+                        Centre famous for variety
+                        of juices it provides. They also provide catering service for various events like Wedding, Shows
+                        and
+                        so
+                        on.</p>
+
+                </div>
+                <div class="col-sm-2">
+                    <div style="text-align: left;">
+                        <h3>Category</h3>
+                        <br>
+                        <p class="word1"><a href="../Home/Home.html">Home </a></p>
+                        <p class="word1"><a href="../Menu/Menu.html">Menu</a></p>
+                        <p class="word1"><a href="../Guide/guide.html">Guide </a></p>
+                        <p class="word1"><a href="../Catering/Catering.html">Catering</a></p>
+                        <p class="word1"><a href="../Franchise/Franchise.html">Franchising</a></p>
+                        <p class="word1"><a href="../Contactus/Contactus.html">Contact us</a></p>
+                        <p class="word1"><a href="../About us/About.html">About us</a></p>
+                    </div>
+
+                </div>
+                <div class="col-sm-2">
+                    <h3>Contact us</h3>
+                    <br>
+                    <div style="text-align: left;">
+                        <p class="word1">Address :Cach mang thang tam Distric 3 HCM</p>
+                        <p class="word1">Phone:123456789</p>
+                        <p class="word1">Email:<a href="ShrekJuice@gmail.com">ShrekJuice@gmail.com</a></p>
+                    </div>
+
+                </div>
 
             </div>
-            <div class="col-sm-2">
-            <div style="text-align: left;">
-                <h3>Category</h3>
-                <br>
-                <p class="word1"><a href="../Home/Home.html">Home </a></p>
-                <p class="word1"><a href="../Menu/Menu.html">Menu</a></p>
-                <p class="word1"><a href="../Guide/guide.html">Guide </a></p>
-                <p class="word1"><a href="../Catering/Catering.html">Catering</a></p>
-                <p class="word1"><a href="../Franchise/Franchise.html">Franchising</a></p>
-                <p class="word1"><a href="../Contactus/Contactus.html">Contact us</a></p>
-                <p class="word1"><a href="../About us/About.html">About us</a></p>
-            </div>
-              
-            </div>
-            <div class="col-sm-2" >
-                <h3>Contact us</h3>
-                <br>
-                <div style="text-align: left;">
-                    <p class="word1">Address :Cach mang thang tam Distric 3 HCM</p>
-                    <p class="word1">Phone:123456789</p>
-                    <p class="word1">Email:<a href="ShrekJuice@gmail.com">ShrekJuice@gmail.com</a></p>
-                </div>
-           
-            </div>
-       
         </div>
     </div>
-</div>
 </body>
 <script>
     var app = angular.module("myApp", ["ngRoute"]);
-            app.config(function ($routeProvider) {
-                $routeProvider
-                   
-                    .when("/catering", {
-                        templateUrl: "catering1.html"
-                    })
-                    .when("/bookatable", {
-                        templateUrl: "bookatable.html"
-                    })
+    app.config(function ($routeProvider) {
+        $routeProvider
 
-            });
-            app.controller('bookatable', function ($scope) {
-                $scope.book = function () {
-                    alert("Thank you for using our service");
-                }
-                    
+            .when("/catering", {
+                templateUrl: "catering1.html"
+            })
+            .when("/bookatable", {
+                templateUrl: "bookatable.html"
+            })
 
-            });
+    });
+    app.controller('bookatable', function ($scope) {
+        $scope.book = function () {
+            alert("Thank you for using our service");
+        }
+
+
+    });
 
 </script>
+<script> 
+    function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+    }
+    </script>
+
 </html>
-
-
-
-
-
-       
