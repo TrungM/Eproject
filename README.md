@@ -1,5 +1,4 @@
-# Eproject
- https://trungm.github.io/Eproject/
+
  # FPT-eProject
 
 Project title: SHREK JUICE
