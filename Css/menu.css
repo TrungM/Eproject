@@ -102,17 +102,6 @@ body {
   }
   
 
-#img {
-
-    position: absolute;
-    top: 20px;
-    left: 60px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-
-
 .headline {
 text-align: center;
 margin: 40px 0px;
@@ -190,9 +179,15 @@ text-align: center;
 
 #wrapper{
  
-    margin-left: 120px;
+    margin-left: 8%;
 
     }
+    .product {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style: none;
+        }
     
     .product {
     width: 30%;
@@ -200,14 +195,6 @@ text-align: center;
     float: left;
     }
     
-    .productdiv {
-    flex-basis: 25%;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-    
-    }
     
     .product  img {
     max-width: 100%;
@@ -257,8 +244,7 @@ text-align: center;
     }
     
     .product-info {
-    padding: 20px 0px;
-    
+    padding: 3% 0%;
     
     }
     
@@ -337,4 +323,22 @@ text-align: center;
   }
   html .input2{
     font-size: 150%;
+  }
+  html span{
+    font-size:141%;
+  }
+  html .submenu{
+    font-size:150%;
+  }
+  html .word1{
+    font-size:180%;
+  }
+  html .word1 a{
+    font-size:90%;
+  }
+  html .word{
+    font-size:170%;
+  }
+  html #p7 h3{
+    font-size:250%;
   }

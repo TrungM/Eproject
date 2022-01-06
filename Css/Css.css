@@ -10,13 +10,13 @@ body {
 
 #p1 {
 
-  background: sandybrown;
-    height: 60px;
-    padding: 15px;
-text-decoration: none;
-    font-size: 1.3rem;
-  
-}
+    background: sandybrown;
+      height: 60px;
+      padding: 15px;
+  text-decoration: none;
+  font-size: 1.3rem;
+
+  }
 
   span {
     color: black;
@@ -142,19 +142,14 @@ div.gallery {
 }
 
 .word {
-    font-size: 1.3rem;
-    
-}
-.word1 a{
-    color: black;
     font-size: 1.2rem;
+
+}
+.word1 a{
+    color: black;
 }
 .word1 a{
     text-decoration: none;
-}
-.word1 a:hover{
-    text-decoration: none;
-    color: black;
 }
 .word1 {
     color: black;
@@ -230,7 +225,11 @@ height: auto;
 border:tomato solid 2px;
 
 }
-
+.product-info {
+    padding: 3% 0%;
+    
+    }
+    
 ul.product li  .product-top {
 overflow: hidden;
 position: relative;
@@ -319,6 +318,8 @@ font-weight: 600px;
 #p5 img{
     padding: 0.7rem;
     margin-left: 0.7rem;
+
+  
 }
 #p5{
 margin-top: 50px;
@@ -349,3 +350,4 @@ margin-bottom: 5rem;
 background-color: bisque;
 padding: 2rem;
 }
+

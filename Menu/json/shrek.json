@@ -2,24 +2,24 @@
     [   { "id": 10,"Img": "Fruit juices/chanh.jpg","Name": "Lemon juice", "Avalable": "Always", "Price": 10},
         { "id": 11,"Img": "Fruit juices/luu.jpg","Name": "Pomegranate", "Avalable": "Seasonal", "Price":10},
         {"id": 12,"Img": "Fruit juices/nha-dam.jpg","Name": "Aloe vera juice", "Avalable": "Always", "Price": 10},
-        {"id": 13,"Img": "Fruit juices/nuoc-ep-dua-hau.jpg","Name": "Watermelon juice", "Avalable": "Always", "Price": 10},
-        {"id": 14,"Img": "Fruit juices/nuoc-ep-ca-chua.jpeg","Name": "Tomatoes juice", "Avalable": "Always", "Price": 10},
-        {"id": 15,"Img": "Fruit juices/nuoc-ep-nho.jpg","Name": "Grape  juice", "Avalable": "Always", "Price": 10},
-        {"id": 16,"Img": "Fruit juices/nuoc-ep-cam.jpg","Name": "Orange juice", "Avalable": "Always", "Price": 10},
-        {"id": 17,"Img": "Fruit juices/nuoc-ep-so-ri.jpg","Name": "Sori juice", "Avalable": "Seasonal", "Price": 10},
-        {"id": 18,"Img": "Fruit juices/nuoc-ep-dau.jpg","Name": "Stawberry juice", "Avalable": "Seasonal", "Price": 10},
-        {"id": 19,"Img": "Fruit juices/nuoc-ep-buoi.jpg","Name": "Gravefruit", "Avalable": "Always", "Price": 10},
+        {"id": 13,"Img": "Fruit juices/nuoc-ep-dua-hau.png","Name": "Watermelon juice", "Avalable": "Always", "Price": 10},
+        {"id": 14,"Img": "Fruit juices/nuoc-ep-ca-chua.png","Name": "Tomatoes juice", "Avalable": "Always", "Price": 10},
+        {"id": 15,"Img": "Fruit juices/nuoc-ep-nho.png","Name": "Grape  juice", "Avalable": "Always", "Price": 10},
+        {"id": 16,"Img": "Fruit juices/nuoc-ep-cam.png","Name": "Orange juice", "Avalable": "Always", "Price": 10},
+        {"id": 17,"Img": "Fruit juices/nuoc-ep-so-ri.png","Name": "Sori juice", "Avalable": "Seasonal", "Price": 10},
+        {"id": 18,"Img": "Fruit juices/nuoc-ep-dao.png","Name": "Peach juice", "Avalable": "Seasonal", "Price": 10},
+        {"id": 19,"Img": "Fruit juices/nuoc-ep-buoi.png","Name": "Gravefruit", "Avalable": "Always", "Price": 10},
         {"id": 110,"Img": "Fruit juices/nuoc-ep-tao.png","Name": "Apple juice", "Avalable": "Always", "Price": 10},
         {"id": 111,"Img": "Fruit juices/nuoc-ep-oi.png","Name": "Guava juice", "Avalable": "Always", "Price": 15}
     ],
     "vegetable":
     [
-        { "id": 20,"Img": "Vegetable Juices/v1.jpg","Name": "Carrot", "Avalable": "Always", "Price": 7},
+        { "id": 20,"Img": "Vegetable Juices/v1.png","Name": "Carrot", "Avalable": "Always", "Price": 7},
         { "id": 21,"Img": "Vegetable Juices/v2.png","Name": "Celery", "Avalable": "Always", "Price": 7},
         { "id": 22,"Img": "Vegetable Juices/v3.jpg","Name": "Beet ", "Avalable": "Always", "Price": 7},
         { "id": 23,"Img": "Vegetable Juices/v4.jpg","Name": "Cucumber", "Avalable": "Always", "Price": 7},
         { "id": 24,"Img": "Vegetable Juices/v5.jpg","Name": "Spinach", "Avalable": "Always", "Price": 7},
-        { "id": 25,"Img": "Vegetable Juices/v6.jpg","Name": "Rau-ma", "Avalable": "Always", "Price": 7}
+        { "id": 25,"Img": "Vegetable Juices/v6.png","Name": "Rau-ma", "Avalable": "Always", "Price": 7}
     
     ],
     "chocolate":
@@ -51,7 +51,7 @@
         {"id": 46,"Img": "Mock Tails/rose-fizz.jpg","Name": "Rose-fizz", "Avalable": "Always", "Price": 20},
         {"id": 47,"Img": "Mock Tails/shirley-ginger.jpg","Name": "Shirley-ginger", "Avalable": "Always", "Price": 20},
         {"id": 48,"Img": "Mock Tails/vantage-point.jpg","Name": "Vantage-point", "Avalable": "Always", "Price": 20},
-        {"id": 49,"Img": "Mock Tails/virgin-watermelon-margarita.jpg","Name": "Virgin-watermelon-margarita", "Avalable": "Seasonal", "Price": 20},
+        {"id": 49,"Img": "Mock Tails/virgin-watermelon-margarita.png","Name": "Virgin-watermelon-margarita", "Avalable": "Seasonal", "Price": 20},
         {"id": 410,"Img": "Mock Tails/cucumer-gimlet.jpg","Name": "Cucumer-gimlet", "Avalable": "Always", "Price": 20},
         {"id": 411,"Img": "Mock Tails/lemonade.png","Name": "Lemonade", "Avalable": "Always", "Price": 20}
     
@@ -76,7 +76,7 @@
 
         {"id": 60,"Img": "Winter Menu/boulevardier.jpg","Name": "Boulevardier", "Avalable": "Always", "Price": 20},
         {"id": 61,"Img": "Winter Menu/eggnog.png","Name": "Eggnog", "Avalable": "Seasonal", "Price": 20},
-        {"id": 62,"Img": "Winter Menu/orange-thyme.jpg","Name": "Orange-thyme", "Avalable": "Always", "Price": 20},
+        {"id": 62,"Img": "Winter Menu/orange-thyme.png","Name": "Orange-thyme", "Avalable": "Always", "Price": 20},
         {"id": 63,"Img": "Winter Menu/haymaker.jpg","Name": "Haymaker", "Avalable": "Always", "Price": 20},
         {"id": 64,"Img": "Winter Menu/hot-buttered-rum.jpg","Name": "Hot-buttered-rum", "Avalable": "Always", "Price": 20},
         {"id": 65,"Img": "Winter Menu/pear-cider.jpg","Name": "Pear-cider", "Avalable": "Always", "Price": 20},
@@ -100,7 +100,7 @@
 
     "main":[
         {"Img": "Bestseller/luu.png","Name": "   Pomegranate", "Avalable": "Seasonal", "Price":10},
-        {"Img":"Bestseller/c3.png","Name": "  Chocolate-Caramel-Rum", "Avalable": "Always", "Price": 15},
+        {"Img":"Bestseller/c3.png","Name": "  Chocolate-Caramel", "Avalable": "Always", "Price": 15},
         {"Img": "Bestseller/chuoi.png","Name": " Banana Smoothies ", "Avalable": "Always", "Price": 12},
         {"Img": "Bestseller/protein.png","Name": "  Banana Almond Butter", "Avalable": "Always", "Price": 25},
         {"Img":"Bestseller/winter.png","Name": "Eggnog", "Avalable": "Seasonal", "Price": 20},
