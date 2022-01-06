@@ -17,7 +17,7 @@ Group 7:
 
 Published: https://trungm.github.io/Eproject/Home/Home.html
 
-eProject report link: https://github.com/TrungM/Eproject/blob/master/eProject_Status_Report(V1)_student1339040_LeMinhTrung.xls
+eProject report link: https://github.com/TrungM/Eproject/tree/master/document
 
 ============================
 
