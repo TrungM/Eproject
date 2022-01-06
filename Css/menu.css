@@ -175,6 +175,9 @@ text-align: center;
     position: relative;
     margin-top: 10px;
     clear:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #wrapper{
