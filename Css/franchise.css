@@ -40,9 +40,8 @@ text-align: center;
     float: right;
     padding-right: 2%;
     padding-top: 6%;
-    width: max-content;
-    clear: none;
-
+ 
+   
 }
 .image2{
     float: right;
@@ -149,6 +148,8 @@ ul.root>li:hover ul.submenu {
     transform: ease-in 0.35s;
 
 }
+
+
 
 ul.submenu li a:hover {
     background-color: yellow;
