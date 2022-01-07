@@ -350,3 +350,20 @@ background-color: bisque;
 padding: 2rem;
 }
 
+.top{
+    position: fixed;
+bottom: 20px;
+right: 30px;
+z-index: 99;
+font-size: 25px;
+border: none;
+outline: none;
+background-color:rgb(194, 58, 34);
+color: white;
+cursor: pointer;
+font-size: 1rem;
+font-weight: 600;
+border-radius: 70px;
+width: 50px;
+height: 50px;
+}

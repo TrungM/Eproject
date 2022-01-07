@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,203 +9,455 @@
     <link rel="stylesheet" href="../Css/guide.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 20px;
-        }
-        #cr {
-          
-            font-size: 20px;
+
         }
 
-        .F1 {
-    background-color: bisque;
-}
-  div pre{
-    font-size:18px ;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-     
+        .ct1 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            background-color: bisque;
+
+        }
+
+        .ct1 .image {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+
+        .ct1 .image img {
+            width: 100%;
+        }
+
+        .ct1 .content {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+            padding: 2rem;
+        }
+
+        .ct1 .content h3 {
+            font-size: 1.4rem;
+            color: #130f40;
+        }
+
+        .ct1 .content h3 span {
+            color: #e67e22;
+        }
+
+        .ct1 .content p {
+            padding: 0.2rem 0;
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+
+
+
+        .ct2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
+
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            background-color: bisque;
+
+
+        }
+
+        .ct2 .image {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+
+        .ct2 .image img {
+            width: 100%;
+        }
+
+        .ct2 .content {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+            padding: 2rem;
+        }
+
+        .ct2 .content h3 {
+            font-size: 1.4rem;
+            color: #130f40;
+        }
+
+        .ct2 .content h3 span {
+            color: #e67e22;
+        }
+
+        .ct2 .content p {
+            padding: 1rem 0;
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+
+
+        .ct3 {
+
+            display: flex;
+
+            display: -webkit-box;
+            display: -ms-flexbox;
+
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+
+        }
+
+
+        .ct3 .image img {
+            width: 100%;
+        }
+
+        .ct4 .content {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+            padding: 2rem;
+        }
+
+        .ct33 .content h3 {
+            font-size: 1.4rem;
+            color: #130f40;
+        }
+
+        .ct3 .content h3 span {
+            color: #e67e22;
+        }
+
+        .ct3 .content p {
+            padding: 1rem 0;
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+
+        .ct4 {
+            display: flex;
+
+            display: -webkit-box;
+            display: -ms-flexbox;
+
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+
+        }
+
+        .ct4 .image {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 30rem;
+            flex: 1 1 30rem;
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+
+        .ct4 .image img {
+            width: 100%;
+        }
+
+        .ct4 .content {
+            -webkit-box-flex: 1;
+            -ms-flex: 1 1 40rem;
+            flex: 1 1 40rem;
+            padding: 2rem;
+        }
+
+        .ct4 .content h3 {
+            font-size: 1.4rem;
+            color: #130f40;
+        }
+
+        .ct4 .content h3 span {
+            color: #e67e22;
+        }
+
+        .ct4 .content p {
+            padding: 1rem 0;
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
     </style>
 </head>
+
 <body>
     <div id="p1">
-		<div class="menu">
-			<ul class="root">
-				<li><a href="../Home/Home.html"><span>Home</span> </a></li>
-				<li><a href="../Menu/Menu.html"> <span>Menu</span> </a>
-					<ul class="submenu" style="text-align: center;">
+        <div class="menu">
+            <ul class="root">
+                <li><a href="../Home/Home.html"><span>Home</span> </a></li>
+                <li><a href="../Menu/Menu.html"> <span>Menu</span> </a>
+                    <ul class="submenu" style="text-align: center;">
                         <li><a href="../Menu/Menu.html">Fruit juices</a></li>
-						<li><a href="../Menu/Menu.html"> Vegetable Juices</a></li>
-						<li><a href="../Menu/Menu.html">Smoothies</a></li>
-						<li><a href="../Menu/Menu.html"> Protein Shakes</a></li>
-						<li><a href="../Menu/Menu.html">Winter Menu</a></li>
-						<li><a href="../Menu/Menu.html">Chocolate Juices</a></li>
-						<li><a href="../Menu/Menu.html">Mock Tails</a></li>
-					</ul>
+                        <li><a href="../Menu/Menu.html"> Vegetable Juices</a></li>
+                        <li><a href="../Menu/Menu.html">Smoothies</a></li>
+                        <li><a href="../Menu/Menu.html"> Protein Shakes</a></li>
+                        <li><a href="../Menu/Menu.html">Winter Menu</a></li>
+                        <li><a href="../Menu/Menu.html">Chocolate Juices</a></li>
+                        <li><a href="../Menu/Menu.html">Mock Tails</a></li>
+                    </ul>
 
-				</li>
-				<li><a href="../Guide/guide.html"> <span>Guide</span> </a></li>
-				<li><a href="../Catering/Catering.html"> <span>Catering</span> </a></li>
-				<li><a href="../Franchise/Franchise.html"> <span>Franchising</span></a></li>
-				<li><a href="../Contactus/Contactus.html"> <span>Contact us</span></a></li>
-				<li> <a href="../About us/About.html"><span> About us</span></a></li>
+                </li>
+                <li><a href="../Guide/guide.html"> <span>Guide</span> </a></li>
+                <li><a href="../Catering/Catering.html"> <span>Catering</span> </a></li>
+                <li><a href="../Franchise/Franchise.html"> <span>Franchising</span></a></li>
+                <li><a href="../Contactus/Contactus.html"> <span>Contact us</span></a></li>
+                <li> <a href="../About us/About.html"><span> About us</span></a></li>
 
-			</ul>
-		</div>
-	</div>
-    <div id="img">
-			<img src="Red Grey Automotive Car Silhouette Logo (5) (1).png" >
-    </div>
-    <div id="p8">
-        <h1 style="margin-top: 0.2rem; color: coral;">Guide for making juices</h1>	
-    </div>
-    <div class="mainimg">
-      <img src="guide.png" alt="" width="100%" >
-    </div>
-<hr>
-<div class="F1">
-    <div class="G1"><img src="Recipe.jpg" alt=""></div>
-        <pre>
-        
-
-        <strong>1. A formula for tasty juice</strong>
-        +Sweet: apples, pears, grapes, melons, pineapples,
-        +oranges, kiwis, mangoes, berries, grapes
-        +Tart: lemons, limes
-        +Roots: beets, carrots, turnips, parsnips
-        +Greens: Kale, spinach, lettuce, chard, arugula,
-        +mustard greens, beet greens, dandelion, sorrel, broccoli
-        +Herbs: Basil, parsley, cilantro, mint
-        +High-yield: Cucumbers, celery, fennel, tomatoes, melons
-        +Spicy: Ginger, hot peppers (use judiciously)
-        +To make juice you need to blend your fruit and veggies 
-         in the blender with some water, place the nut milk bag on
-         the top of a bowl and pour the juice through it. Squeeze
-         with your hands until all juice is in the bows
-    
-
-    </pre>
-    </div>
-    <div class="F1">
-        <div class="G2"><img src="fruit.jpg" alt=""></div>
-        <pre>        
-
-         
-        <strong>2. Balance high-yield ingredients with high-potency ingredients.</strong>
-        -Cucumbers, celery, and apples are juicing tsunamis; but
-         a little bit of ginger or mint goes a long way.
-         Be aware of the behavior of each ingredient in the juicer
-         (which will be immediately apparent when you've
-         juiced it once), and try to maintain a reasonable balance
-         between flexible, mellow ingredients and more intense ones.
-         Spinach, leaf of kale, cucumber, peeled half lemon, one apple
-         and small carrot, sieve it and your juice is ready. This blend 
-         makes incredible detoxifier with a powerhouse of anti-oxidant
-         and anti-iflammatory properties.
-        -Apples make for a great juice ingredient as they have a sweet
-         flavour and help mask other flavours. To make this juice combine
-         2 apples, 1 peeled lemon, 3 stalks of celery, 2 carrots (peeled),
-         and 5 stems of fresh parsley. Celery is low in calorie and a good
-         source of fibre, vitamin A, vitamin C, and vitamin K. Lemon is also
-         an effective cleansing agent which makes this blend of juice healthy.
-
-                  
-
-
-     </pre>
-    </div>
-    <div class="F1">
-        <div class="G3"><img src="peelfruit.jpg" alt=""></div>
-        <pre>
-
-            
-       <strong>3. To peel or not to peel?</strong>
-       -In many cases, leaving the skin on the produce you juice is
-        just fine—even pineapple skin can roll just fine through most
-        decent juicers. Especially if you're using the skin, do be sure
-        to buy produce grown with organic practices when possible.
-       -A few exceptions, where you should peel:
-       *Kiwis
-       *Produce that's been waxed
-       *Citrus fruits, if you want the pure taste of the juice without
-        the skin's oil and the pith's bitterness
-       *Any other ingredient where you're concerned the skin will affect
-        the taste (for example, you might do a taste test with melons,
-        though it's technically fine to juice the skins)
-       *And, if you're visually astute or serving to a crowd, any peel
-        that might negatively affect the color of the final juice
-
-                   
-
-    </pre>
-    </div>
-    <div class="F1">
-        <div class="G4"><img src="fj.jpg" alt=""></div>
-       <pre>
-
-
-       <strong>4. Finally, consider color.</strong>
-       -The way food looks affects our perception of the way it tastes. 
-       -The same applies at least equally to juices (and smoothies). 
-       -Don't make a grey juice or a brown one unless you have an opaque
-        cup with a lid or a penchant for the grotesque. Pair intelligently.
-       -In a green juice, for example, apples and pears make better sweeteners
-        than strawberries. If you're really stuck, just juice a beet.
-       -It's the ultimate color trump card and will override almost anything.
-       -The earliest juice is virtually clear, while late-harvest juice has
-        that familiar deep-orange color of carton juice. Though color doesn't
-        necessarily have anything to do with taste or sweetness, manufacturers
-        of carton juice (like Tropicana) try to ensure their juice always looks
-        the same.
-
-          
-       
-
-
-    </pre>
-</div>
-
-<div id="p7">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-8">
-                <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png">
-                <p class="word">Shrek-Juice.com is a website of the Shrek Juice Centre which is big Juice
-                    Centre famous for variety
-                    of juices it provides. They also provide catering service for various events like Wedding, Shows
-                    and
-                    so
-                    on.</p>
-
-            </div>
-            <div class="col-sm-2">
-            <div style="text-align: left;">
-                <h3>Category</h3>
-                <br>
-                <p class="word1"><a href="../Home/Home.html">Home </a></p>
-                <p class="word1"><a href="../Menu/Menu.html">Menu</a></p>
-                <p class="word1"><a href="../Guide/guide.html">Guide </a></p>
-                <p class="word1"><a href="../Catering/Catering.html">Catering</a></p>
-                <p class="word1"><a href="../Franchise/Franchise.html">Franchising</a></p>
-                <p class="word1"><a href="../Contactus/Contactus.html">Contact us</a></p>
-                <p class="word1"><a href="../About us/About.html">About us</a></p>
-            </div>
-              
-            </div>
-            <div class="col-sm-2" >
-                <h3>Contact us</h3>
-                <br>
-                <div style="text-align: left;">
-                    <p class="word1">Address :Cach mang thang tam Distric 3 HCM</p>
-                    <p class="word1">Phone:123456789</p>
-                    <p class="word1">Email:ShrekJuice@gmail.com</p>
-                </div>
-           
-            </div>
-       
+            </ul>
         </div>
     </div>
-</div>
+    <div id="img">
+        <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png">
+    </div>
+    <div id="p8">
+        <h1 style="margin-top: 0.2rem; color: coral;">Guide for making juices</h1>
+    </div>
+    <div class="mainimg">
+        <img src="guide.png" alt="" width="100%">
+    </div>
+    <hr>
+    <div>
+
+    </div>
+    <div class="ct1">
+
+        <div class="content">
+            <h4> <strong>1. A formula for tasty juice</strong></h4>
+            <p>     +Sweet: apples, pears, grapes, melons, pineapples,
+                    oranges, kiwis, mangoes, berries, grapes
+                    +Tart: lemons, limes<br>
+                    +Roots: beets, carrots, turnips, parsnips<br>
+                    +Greens: Kale, spinach, lettuce, chard, arugula,
+                    mustard greens, beet greens, dandelion, sorrel, broccoli<br>
+                    +Herbs: Basil, parsley, cilantro, mint<br>
+                    +High-yield: Cucumbers, celery, fennel, tomatoes, melons<br>
+                    +Spicy: Ginger, hot peppers (use judiciously)<br>
+                    +To make juice you need to blend your fruit and veggies
+                    in the blender with some water, place the nut milk bag on
+                    the top of a bowl and pour the juice through it. Squeeze
+                    with your hands until all juice is in the bows.
+    
+
+            </p>
+        </div>
+
+        <div class="image">
+            <img src="Recipe.jpg" alt="">
+        </div>
+        <div class="ct2">
+
+            <div class="content">
+                <h4> <strong>2. Balance high-yield ingredients with high-potency ingredients.</strong></h4>
+                <p>
+                    -Cucumbers, celery, and apples are juicing tsunamis; but
+                    a little bit of ginger or mint goes a long way.
+                    Be aware of the behavior of each ingredient in the juicer
+                    (which will be immediately apparent when you've
+                    juiced it once), and try to maintain a reasonable balance
+                    between flexible, mellow ingredients and more intense ones.
+                    Spinach, leaf of kale, cucumber, peeled half lemon, one apple
+                    and small carrot, sieve it and your juice is ready. This blend
+                    makes incredible detoxifier with a powerhouse of anti-oxidant
+                    and anti-iflammatory properties.<br>
+                    -Apples make for a great juice ingredient as they have a sweet
+                    flavour and help mask other flavours. To make this juice combine
+                    2 apples, 1 peeled lemon, 3 stalks of celery, 2 carrots (peeled),
+                    and 5 stems of fresh parsley. Celery is low in calorie and a good
+                    source of fibre, vitamin A, vitamin C, and vitamin K. Lemon is also
+                    an effective cleansing agent which makes this blend of juice healthy.
+
+                </p>
+
+
+            </div>
+
+            <div class="image">
+                <img src="fruit.jpg" alt="">
+            </div>
+            <div class="ct3">
+
+                <div class="content">
+                    <h4> <strong>3. To peel or not to peel ?</strong></h4>
+                    <p>
+                        -In many cases, leaving the skin on the produce you juice is
+                        just fine-even pineapple skin can roll just fine through most
+                        decent juicers. Especially if you're using the skin, do be sure
+                        to buy produce grown with organic practices when possible.<br>
+                        -A few exceptions, where you should peel:<br>
+                        *Kiwis<br>
+                        *Produce that's been waxed<br>
+                        *Citrus fruits, if you want the pure taste of the juice without
+                        the skin's oil and the pith's bitterness<br>
+                        *Any other ingredient where you're concerned the skin will affect
+                        the taste (for example, you might do a taste test with melons,
+                        though it's technically fine to juice the skins)<br>
+                        *And, if you're visually astute or serving to a crowd, any peel
+                        that might negatively affect the color of the final juice
+
+                    </p>
+
+
+                </div>
+
+                <div class="image">
+                    <img src="fibre.png" alt="">
+                </div>
+                <div class="ct4">
+
+                    <div class="content">
+                        <h4> <strong>4. Fibre is the key problem</strong></h4>
+                        <p>
+                            Juicing releases the sugars in fruit and removes the insoluble fibre;
+                            blending also releases the sugars and tears apart the insoluble fibre.
+                            Most of the sugar in fruit is fructose, which can only be processed by the liver.
+                            A small amount of fructose, in an apple for example, does us no harm because we consume it
+                            along with
+                            the fibre. Fibre protects us against the effects of fructose by slowing its absorption,
+                            and also makes us feel full. Fruit juice, on the other hand, is absorbed immediately, like
+                            all sugary
+                            drinks, as the fibre has been removed.
+                        </p>
+
+
+                    </div>
+
+                    <div class="image">
+                        <img src="fj.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="ct4">
+
+                <div class="content">
+                    <h4> <strong>5.Can juice ever be good for you?</strong></h4>
+                    <p>
+                        The scientist agree that juice is an important sources of nutrients for people
+                        One hundred per cent fruit juice makes a valuable contribution to our intake of vitamin C in the
+                        UK diet, contributing almost 20% to average daily vitamin C intake in schoolchildren, and more
+                        than 10% in adults, she says. 'A 150ml glass of unsweetened orange juice is also a source of
+                        folate and potassium.
+                        naturally agrees, arguing that just 8.5% of UK children and 30% of adults eat the five
+                        recommended portions of fruit or vegetables a day. Gaynor Ferrari, a spokeswoman for the
+                        Association, says "scaremongering" is overshadowing the positive contribution that fruit juice
+                        makes to the nations health. Sensible dietary advice should be encouraging everyone -
+                        especially those struggling to reach their 5-a-day
+                    </p>
+
+
+                </div>
+
+                <div class="image">
+                    <img src="can.png" alt="">
+                </div>
+
+            </div>
+        </div>
+        <div class="ct4">
+
+            <div class="content">
+                <h4> <strong>6. Finally, consider color.</strong></h4>
+                <p>
+                    -The way food looks affects our perception of the way it tastes.
+                    The same applies at least equally to juices (and smoothies).
+                    Don't make a grey juice or a brown one unless you have an opaque
+                    cup with a lid or a penchant for the grotesque. Pair intelligently.<br>
+                    -In a green juice, for example, apples and pears make better sweeteners
+                    than strawberries. If you're really stuck, just juice a beet.
+                    It's the ultimate color trump card and will override almost anything.<Br>
+                    -The earliest juice is virtually clear, while late-harvest juice has
+                    that familiar deep-orange color of carton juice. Though color doesn't
+                    necessarily have anything to do with taste or sweetness, manufacturers
+                    of carton juice (like Tropicana) try to ensure their juice always looks
+                    the same.
+                </p>
+
+
+            </div>
+
+            <div class="image">
+                <img src="fj.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <button onclick="topFunction()" id="myBtn" class="top">TOP</button>
+
+    <div id="p7">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <img src="Red Grey Automotive Car Silhouette Logo (5) (1).png">
+                    <p class="word">Shrek-Juice.com is a website of the Shrek Juice Centre which is big
+                        Juice
+                        Centre famous for variety
+                        of juices it provides. They also provide catering service for various events like
+                        Wedding, Shows
+                        and
+                        so
+                        on.</p>
+
+                </div>
+                <div class="col-sm-2">
+                    <div style="text-align: left;">
+                        <h3>Category</h3>
+                        <br>
+                        <p class="word1"><a href="../Home/Home.html">Home </a></p>
+                        <p class="word1"><a href="../Menu/Menu.html">Menu</a></p>
+                        <p class="word1"><a href="../Guide/guide.html">Guide </a></p>
+                        <p class="word1"><a href="../Catering/Catering.html">Catering</a></p>
+                        <p class="word1"><a href="../Franchise/Franchise.html">Franchising</a></p>
+                        <p class="word1"><a href="../Contactus/Contactus.html">Contact us</a></p>
+                        <p class="word1"><a href="../About us/About.html">About us</a></p>
+                    </div>
+
+                </div>
+                <div class="col-sm-2">
+                    <h3>Contact us</h3>
+                    <br>
+                    <div style="text-align: left;">
+                        <p class="word1">Address :Cach mang thang tam Distric 3 HCM</p>
+                        <p class="word1">Phone:123456789</p>
+                        <p class="word1">Email:<a href="ShrekJuice@gmail.com">ShrekJuice@gmail.com</a></p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
 </body>
+<script>
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
 </html>
