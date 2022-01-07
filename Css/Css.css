@@ -63,9 +63,6 @@ ul.submenu li a {
     line-height: 40px;
     text-indent: 10px;
 
-
-
-
 }
 
 ul.root>li:hover ul.submenu {
@@ -115,7 +112,6 @@ ul.submenu li a:hover {
     border: tomato solid thick;
     padding: 1rem;
     background-color: #ff914d;
-    
 
 }
 

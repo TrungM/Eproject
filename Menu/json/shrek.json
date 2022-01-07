@@ -74,7 +74,7 @@
     "winter":
     [
 
-        {"id": 60,"Img": "Winter Menu/boulevardier.jpg","Name": "Boulevardier", "Avalable": "Always", "Price": 20},
+        {"id": 60,"Img": "Winter Menu/boulevardier.jpg","Name": "Cucumer-gimlet", "Avalable": "Always", "Price": 20},
         {"id": 61,"Img": "Winter Menu/eggnog.png","Name": "Eggnog", "Avalable": "Seasonal", "Price": 20},
         {"id": 62,"Img": "Winter Menu/orange-thyme.png","Name": "Orange-thyme", "Avalable": "Always", "Price": 20},
         {"id": 63,"Img": "Winter Menu/haymaker.jpg","Name": "Haymaker", "Avalable": "Always", "Price": 20},
@@ -99,14 +99,16 @@
 
 
     "main":[
-        {"Img": "Bestseller/luu.png","Name": "   Pomegranate", "Avalable": "Seasonal", "Price":10},
+        {"Img":"Bestseller/Mt1.png","Name": "  Chocolate-Caramel", "Avalable": "Always", "Price": 15},
         {"Img":"Bestseller/c3.png","Name": "  Chocolate-Caramel", "Avalable": "Always", "Price": 15},
-        {"Img": "Bestseller/chuoi.png","Name": " Banana Smoothies ", "Avalable": "Always", "Price": 12},
-        {"Img": "Bestseller/protein.png","Name": "  Banana Almond Butter", "Avalable": "Always", "Price": 25},
-        {"Img":"Bestseller/winter.png","Name": "Eggnog", "Avalable": "Seasonal", "Price": 20},
+        {"Img": "Bestseller/Mt2.png","Name": "Lavendar-lemonade", "Avalable": "Always", "Price":20},
+        {"Img": "Bestseller/luu.png","Name": "   Pomegranate", "Avalable": "Seasonal", "Price":10},
         {"Img": "Bestseller/vegetable.png","Name": "Beet", "Avalable": "Always", "Price": 7},
-        {"Img": "Bestseller/Mt1.png","Name": " Lapple-cider  ", "Avalable": "Always", "Price":20},
-        {"Img": "Bestseller/Mt2.png","Name": "Lavendar-lemonade", "Avalable": "Always", "Price":20}
+        {"Img":"Bestseller/winter.png","Name": "Eggnog", "Avalable": "Seasonal", "Price": 20},
+        {"Img": "Bestseller/chuoi.png","Name": " Banana Smoothies ", "Avalable": "Always", "Price": 12},
+        {"Img": "Bestseller/protein.png","Name": "  Banana Almond Butter", "Avalable": "Always", "Price": 25}
+
+       
     
     
     ]
